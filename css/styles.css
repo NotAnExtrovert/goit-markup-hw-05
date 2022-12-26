@@ -10,7 +10,6 @@
 
 * {
     box-sizing: border-box;
-    transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body{
@@ -120,6 +119,8 @@ header{
     font-weight: 500;
     letter-spacing: 0.02em;
     padding: 20px 0;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover{
@@ -158,6 +159,8 @@ header{
     color: var(--color-secondary);
     fill: var(--color-secondary);
     cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-email-li:hover {
@@ -181,6 +184,8 @@ header{
     line-height: 1.143;
     font-weight: 500;
     letter-spacing: 0.02em;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-email:hover {
@@ -198,6 +203,8 @@ header{
     line-height: 1.143;
     font-weight: 500;
     letter-spacing: 0.02em;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-num:hover {
@@ -401,6 +408,8 @@ align-content: center;
     background-color: var(--color-white);
     fill: var(--color-icon);
     border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link:hover{
@@ -437,7 +446,9 @@ align-content: center;
     background-color: var(--color-white);
     border: solid 1px;
     border-radius: 4px;
-    border-color: var(--color-icon) ;
+    border-color: var(--color-icon);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover{
@@ -473,6 +484,8 @@ address{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-email:hover {
@@ -542,6 +555,8 @@ address{
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--color-white);
     border-radius: 50%;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link:hover{
@@ -575,6 +590,8 @@ address{
     border: none;
     cursor: pointer;
     padding: 6px 22px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active-button {
@@ -654,6 +671,8 @@ address{
     background-color: var(--color-white);
     border: 1px solid #EEEEEE;
     flex-basis: calc((100% - 60px)/3);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -682,6 +701,8 @@ address{
     letter-spacing: 0.03em;
     top: 0;
     padding: 64px 24px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay{
